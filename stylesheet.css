@@ -27,7 +27,15 @@ body {
     background-image: url("./mint-circles.png");
     background-color: #f8f8f8;
     background-position: 65px;
+    height:730px;
+}
+
+.container-type2 {
+    display: flex;
+    justify-content: center;
+    background-image: url("./project-bg.png");
     height:710px;
+    flex-direction: column;
 }
 
 #navbar {
@@ -123,4 +131,22 @@ body {
     font-family: Yanone;
     color: #8bbfb6;
     font-size: 28px;
+}
+
+.white-header {
+    font-family: Droid-Bold;
+    color:white;
+    font-size: 75px;
+    letter-spacing: -3px;
+}
+
+#project-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-box {
+    background-color:#458c8a;
+    width: 50px;
+    height: 450px;
 }
