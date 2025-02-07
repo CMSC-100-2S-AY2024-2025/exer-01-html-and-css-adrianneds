@@ -8,3 +8,27 @@ body {
     background-position: 65px;
     height:710px;
 }
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px;
+}
+
+#navbar-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 25px;
+    background:#8bbfb6;
+    padding: 20px;
+    width: 800px;
+}
+
+#logo-navbar {
+    margin-right: 50px;
+    width: 120px;
+    height: 40px;
+}
