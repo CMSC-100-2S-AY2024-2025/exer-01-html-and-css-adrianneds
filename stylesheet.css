@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Yanone;
+    src: url(./yanone.ttf);
+}
+
 body {
     background-color: #f8f8f8;
 }
@@ -25,6 +30,18 @@ body {
     background:#8bbfb6;
     padding: 20px;
     width: 800px;
+}
+
+.navbar-element {
+    font-family: Yanone;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.navbar-element:hover {
+    color: #2e6967;
 }
 
 #logo-navbar {
