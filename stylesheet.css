@@ -3,5 +3,8 @@ body {
 }
 
 .container-type1 {
+    background-image: url("./mint-circles.png");
+    background-color: #f8f8f8;
+    background-position: 65px;
     height:710px;
 }
