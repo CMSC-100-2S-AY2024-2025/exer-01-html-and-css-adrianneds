@@ -18,6 +18,12 @@
     src: url(./DroidSerif-Regular.ttf);
 }
 
+@font-face {
+    font-family: Yanone-Reg;
+    src: url(./yanone-reg.ttf);
+}
+
+
 
 body {
     background-color: #f8f8f8;
@@ -32,10 +38,10 @@ body {
 
 .container-type2 {
     display: flex;
-    justify-content: center;
     background-image: url("./project-bg.png");
     height:710px;
     flex-direction: column;
+    align-items: center;
 }
 
 #navbar {
@@ -136,17 +142,77 @@ body {
 .white-header {
     font-family: Droid-Bold;
     color:white;
-    font-size: 75px;
+    font-size: 65px;
     letter-spacing: -3px;
 }
 
 #project-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .project-box {
-    background-color:#458c8a;
-    width: 50px;
-    height: 450px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:#f8f8f8;
+    width: 420px;
+    height: 520px;
+    border-radius: 25px;
+}
+
+#rbandit {
+    height: 55%;
+}
+
+.projectbox-header {
+    margin-bottom: 0px;
+    font-family: Yanone;
+    color: #458c8a;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+.project-desc {
+    align-self: center;
+    width: 75%;
+    font-family: Yanone-Reg;
+    color: #458c8a;
+    font-size: 20px;
+}
+
+.tool-box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.tool, .project-link-cont {
+    border-radius: 25px;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-family: Yanone-Reg;
+    font-size: 20px;
+}
+
+.tool {
+    background-color: #e4f1ef;
+    color: #458c8a;
+}
+
+.project-link-cont {
+    background-color: #458c8a;
+}
+
+.project-link {
+    color: #e4f1ef;
+}
+
+.project-link:hover {
+    opacity: 0.5;
 }
