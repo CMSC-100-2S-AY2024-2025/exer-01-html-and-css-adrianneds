@@ -83,8 +83,8 @@ body {
 
 #logo-navbar {
     margin-right: 50px;
-    width: 120px;
-    height: 40px;
+    width: 140px;
+    height: 50px;
     transition:0.5s;
 }
 
@@ -335,6 +335,8 @@ body {
     font-weight: bolder;
     font-family: Yanone-Light;
     font-size: 23px;
+    line-height: 105%;
+    margin-top:0%;
 }
 
 #footer {
