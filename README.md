@@ -15,7 +15,7 @@ that all your resources (images, fonts, stylesheet) are also in your
 remote repository.
 5. Click on the settings tab of your GitHub repository. 
 6. Click "Pages". 
-7. Under "Build and deployment" and "Source, make sure that "Deploy from a branch" is selected.
+7. Under "Build and deployment" and "Source", make sure that "Deploy from a branch" is selected.
 8. Under "Build and deployment" and "Branch", select the main branch.
 9. Click "Save"
 10. Your GitHub page can now be viewed in the URL \<domain>/\<repository-name>. You can see the domain under "Custom domain" (the one ending in .github.io)
@@ -25,7 +25,7 @@ Being a web developer requires a lot of patience and persistence to
 solve problems that may arise in creating a webpage, especially since
 there are many elements involved. 
 
-There may be unexpected errors that require attention to detail to resolve. Sometimes, your mistake is just mispelling a filename!
+There may be unexpected errors that require attention to detail to resolve. Sometimes, your mistake is just misspelling a filename!
 
 It is important to use version control to track changes and revert to previous functional versions in case of errors.
 
