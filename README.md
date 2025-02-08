@@ -1,9 +1,9 @@
-# Adrianne D. Solis
-## BS Statistics 
-I am Adrianne D. Solis, a BS Statistics Batch 2022 student taking CMSC 100 - Web Programming.
+# Author: Adrianne D. Solis
+I am Adrianne D. Solis, a **BS Statistics** Batch 2022 student taking CMSC 100 - Web Programming.
 
-# Live Website Link:
-## TBA
+# Live Website Link: 
+TBA
+
 You may view my portfolio through the link above. Note that some information (about being a graduating BSCS student, etc.) are fictional and are included to match the provided scenario in the exercise.
 
 # Steps on Creating a GitHub Page:
