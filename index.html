@@ -1,16 +1,20 @@
 <! DOCTYPE HTML>
 <html>
     <head>
-        <title> Adrianne Solis | Portfolio </title>
-        <link rel="stylesheet" href= "./stylesheet.css"> 
-        <link rel="icon" href="./icons/logo.png">
+        <title> Adrianne Solis | Portfolio </title>         
+        <link rel="stylesheet" href= "./stylesheet.css"> <!-- stylesheet -->
+        <link rel="icon" href="./icons/logo.png">        <!-- tab icon -->
     </head>
     <body>
 
+        <!-- home section -->
         <div id = "home">
 
+            <!-- navbar including logo -->
             <div id = "navbar"> 
                 <img src = "./logo.png" id = "logo-navbar"> 
+
+                <!-- main navbar with links -->
                 <div id = "navbar-main">
                     <a href= "#project-section" class = "navbar-element"> projects </a>
                     <a href= "#skills-auto-container" class = "navbar-element"> skills </a>
@@ -18,8 +22,10 @@
                     <a href= "#footer" class = "navbar-element"> contact </a>
                     <a href= "https://github.com/adrianneds" target="blank" class = "navbar-element"> Github </a>
                 </div>
+
             </div>
 
+            <!-- name, introduction text, and photo -->
             <div id = "about-me"> 
                 <div id = "about-text">
                     <h3 class = "intro-text"> hello! I am... </h3>
@@ -30,6 +36,7 @@
                 <img src = "./adsolis-pic.png" id = "adsolis-pic">
             </div>
 
+            <!-- additional text at the bottom -->
             <div class = "home-bottom-text"> 
                 <h3 class = "misc-text"> A DEVELOPER PORTFOLIO </h3>
                 <div id = "scroll-div">
@@ -41,18 +48,20 @@
 
     </div>
 
+    <!-- project section -->
     <div id = "project-section">
-        <h1 class = "white-header"> < previous projects > </h1>
 
-        <div id = "project-container"> 
+        <h1 class = "white-header"> < previous projects > </h1>   <!-- projects section header -->
 
-            <div class = "project-box"> 
+        <div id = "project-container">    <!-- main container of project boxes -->
+
+            <div class = "project-box">   <!-- a project box contains individual project information and screenshots -->
                 <img src = "./rbandit.png" id = "project-img">    
                 <h2 class = "projectbox-header"> RAILWAY BANDIT </h2>
                 <p class = "project-desc"> A steampunk-themed simultaneous two-player fighting game; with 
                     character selection, powerups, and reverse powerups.
                 </p>
-                <div class = "tool-box">
+                <div class = "tool-box">  <!-- the tool box contains the technologies/languages used in the project -->
                     <div class = "tool"> Java </div>
                     <div class = "tool"> JavaFX </div>
                     <div class = "project-link-cont"> <a href="https://github.com/adrianneds/RailwayBandit" target="blank" class="project-link"> Github Link  </a> </div>
@@ -71,6 +80,7 @@
                     <div class = "project-link-cont"> <a href="https://github.com/adrianneds/diet-problem-solver" target="blank" class="project-link"> Github Link  </a> </div>
                 </div>
             </div>
+
             <div class = "project-box"> 
                 <img src = "./ptable.png" id = "project-img">    
                 <h2 class = "projectbox-header"> PERIODIC TABLE WEBPAGE </h2>
@@ -84,50 +94,57 @@
 
         </div>
 
+        <!-- link that redirects to the top / home section -->
         <a href = "#navbar" class = "back-to-top"> Back to Top </a> 
 
     </div>
 
+    <!-- main contianer for skills and autobiography section  -->
     <div id = "skills-auto-container">
 
+        <!-- skills container -->
         <div id = "skills-container"> 
 
+            <!-- skills section header -->
             <h1 class = "white-header" id = "skills-header"> < skills > </h1>
 
+            <!-- container for general hard skills group -->
             <div id = "hard-skills"> 
                 <div class = "hard-skill-box"> <p class = "hard-skill-text"> UI/UX Design </p> </div>
                 <div class = "hard-skill-box"> <p class = "hard-skill-text"> Database Management </p> </div>
                 <div class = "hard-skill-box"> <p class = "hard-skill-text"> Data Visualization </p> </div>
             </div>
 
-            <div id = "programming-skills"> 
-                <div class = "programming-skill-box"> 
-                    <img src = "./icons/html.png" class = "skill-icon"> 
-                    <p class = "programming-skill-text"> HTML </p>
+            <!-- container for dev skills group (languages, technologies) -->
+            <div id = "dev-skills"> 
+                <div class = "dev-skill-box"> 
+                    <img src = "./icons/html.png" class = "skill-icon">   <!-- icon of specific language -->
+                    <p class = "dev-skill-text"> HTML </p>
                 </div>
-                <div class = "programming-skill-box"> 
+                <div class = "dev-skill-box"> 
                     <img src = "./icons/css.png" class = "skill-icon"> 
-                    <p class = "programming-skill-text"> CSS </p>
+                    <p class = "dev-skill-text"> CSS </p>
                  </div>
-                <div class = "programming-skill-box"> 
+                <div class = "dev-skill-box"> 
                     <img src = "./icons/js.png" class = "skill-icon"> 
-                    <p class = "programming-skill-text"> JavaScript </p>
+                    <p class = "dev-skill-text"> JavaScript </p>
                 </div>
-                <div class = "programming-skill-box"> 
+                <div class = "dev-skill-box"> 
                     <img src = "./icons/py.png" class = "skill-icon"> 
-                    <p class = "programming-skill-text"> Python </p>
+                    <p class = "dev-skill-text"> Python </p>
                 </div>
-                <div class = "programming-skill-box"> 
+                <div class = "dev-skill-box"> 
                     <img src = "./icons/java.png" class = "skill-icon"> 
-                    <p class = "programming-skill-text"> Java, JavaFX </p>
+                    <p class = "dev-skill-text"> Java, JavaFX </p>
                 </div>
-                <div class = "programming-skill-box"> 
+                <div class = "dev-skill-box"> 
                     <img src = "./icons/r.png" class = "skill-icon"> 
-                    <p class = "programming-skill-text"> R, RShiny UI </p>
+                    <p class = "dev-skill-text"> R, RShiny UI </p>
                 </div>
-                <div class = "programming-skill-box"> <p class = "programming-skill-text"> C </p> </div>
+                <div class = "dev-skill-box"> <p class = "dev-skill-text"> C </p> </div>
             </div>
 
+            <!-- container for soft skills group -->
             <div id = "soft-skills"> 
                 <div class = "soft-skill-box"> <p class = "soft-skill-text"> Attention to Detail </p> </div>
                 <div class = "soft-skill-box"> <p class = "soft-skill-text"> Adaptability </p> </div>
@@ -140,8 +157,10 @@
             <a href = "#navbar" class = "back-to-top"> Back to Top </a> 
 
         </div> 
+
+        <!-- container for autobiography section -->
         <div id = "auto-container"> 
-            <h1 class = "dark-header" id = "auto-header"> < autobiography > </h1>
+            <h1 class = "dark-header" id = "auto-header"> < autobiography > </h1> <!-- autobiography section header -->
             <p class = "auto-text"> 
                 I am Adrianne D. Solis, a dedicated web developer with a trained eye for design. Currently, I am a 
                 graduating BS Computer Science in the University of the Philippines - Los Baños. I started with a passion for graphic design,
@@ -156,14 +175,16 @@
 
     </div>
 
+    <!-- footer -->
     <div id = "footer">
-        <h1 class = "dark-header" id = "footer-header"> < let's connect! > </h1>
-            <div id = "contact-info-container"> 
+        <h1 class = "dark-header" id = "footer-header"> < let's connect! > </h1>    
+
+            <div id = "contact-info-container">  <!-- container for individual contact information -->
                 <div class = "contact-sub-container">
                     <p class = "contact-info"> Adrianne Dancel Solis </p>
                 </div>
                 <div class = "contact-sub-container">
-                    <img src = "./icons/location.png" class = "footer-icon"> 
+                    <img src = "./icons/location.png" class = "footer-icon">  <!-- contact information icon -->
                     <p class = "contact-info"> Sto. Tomas, Batangas </p>
                 </div>
                 <div class = "contact-sub-container">
@@ -178,7 +199,8 @@
                     <img src = "./icons/github.png" class = "footer-icon"> 
                     <a href="https://github.com/adrianneds" target="blank" class = "contact-info"> adrianneds </a>
                 </div>
-        </div>
+
+            </div>
 
         <a href = "#navbar" id = "footer-back-to-top"> Back to Top </a> 
 

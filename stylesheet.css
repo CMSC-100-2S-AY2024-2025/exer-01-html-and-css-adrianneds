@@ -279,7 +279,7 @@ body {
 }
 
 /* containers for group of skills */
-#hard-skills, #programming-skills, #soft-skills {
+#hard-skills, #dev-skills, #soft-skills {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
@@ -289,7 +289,7 @@ body {
 }
 
 /* containers for individual skills */
-.hard-skill-box, .programming-skill-box, .soft-skill-box {
+.hard-skill-box, .dev-skill-box, .soft-skill-box {
     display: flex;
     max-height: 40px;
     justify-content: center;
@@ -301,7 +301,7 @@ body {
 }
 
 /* hover transition in skill containers; enlarge */
-.hard-skill-box:hover,  .programming-skill-box:hover, .soft-skill-box:hover, .navbar-element:hover, #logo-navbar:hover, #about-me:hover  {
+.hard-skill-box:hover,  .dev-skill-box:hover, .soft-skill-box:hover, .navbar-element:hover, #logo-navbar:hover, #about-me:hover  {
     transform: scale(1.2); 
 }
 
@@ -309,7 +309,7 @@ body {
     background-color: #2e6967;
 }
 
-.programming-skill-box{
+.dev-skill-box{
     background-color: #51a29f;
     max-width: 150px;
 }
@@ -318,13 +318,13 @@ body {
     background-color: #dbf1ed;
 }
 
-.hard-skill-text, .programming-skill-text, .soft-skill-text {
+.hard-skill-text, .dev-skill-text, .soft-skill-text {
     font-family: Yanone;
     font-size: 25px;
     margin: 10;
 }
 
-.hard-skill-text, .programming-skill-text {
+.hard-skill-text, .dev-skill-text {
     color: #e4f1ef;
 }
 
