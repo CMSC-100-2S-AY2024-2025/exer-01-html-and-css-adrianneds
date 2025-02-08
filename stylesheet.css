@@ -1,3 +1,6 @@
+
+/* fonts */
+
 @font-face {
     font-family: Yanone;
     src: url(./yanone.ttf);
@@ -6,6 +9,11 @@
 @font-face {
     font-family: Yanone-Thin;
     src: url(./yanone-thin.ttf);
+}
+
+@font-face {
+    font-family: Yanone-Light;
+    src: url(./yanone-light.ttf);
 }
 
 @font-face {
@@ -18,16 +26,7 @@
     src: url(./DroidSerif-Regular.ttf);
 }
 
-@font-face {
-    font-family: Yanone-Reg;
-    src: url(./yanone-reg.ttf);
-}
-
-@font-face {
-    font-family: Yanone-Light;
-    src: url(./yanone-light.ttf);
-}
-
+/* for smooth scrolling when redirected to sections */ 
 html {
     scroll-behavior: smooth;
 }
@@ -36,24 +35,20 @@ body {
     background-color: #f8f8f8;
 }
 
-.container-type1 {
+/* home section */
+#navbar, #about-me, #scroll-div {
+    display:flex;
+    justify-content: center;
+}
+
+#home {
     background-image: url("./mint-circles.png");
     background-color: #f8f8f8;
     background-position: 65px;
     height:730px;
 }
 
-.container-type2 {
-    display: flex;
-    background-image: url("./project-bg.png");
-    height:730px;
-    flex-direction: column;
-    align-items: center;
-}
-
 #navbar {
-    display: flex;
-    justify-content: center;
     align-items: center;
     padding-top:30px;
 }
@@ -77,6 +72,7 @@ body {
     transition: 0.3s;
 }
 
+/*hover transition for navbar elements*/
 .navbar-element:hover {
     color: #2e6967;
 }
@@ -90,8 +86,6 @@ body {
 
 #about-me {
     margin-top:20px;
-    display: flex;
-    justify-content: center;
     align-items:center;
     transition:0.5s;
 }
@@ -124,12 +118,6 @@ body {
     justify-content: space-around;
 }
 
-#scroll-div {
-    display: flex;
-    justify-content: center;
-    transition: 0.3s;
-}
-
 #scroll-text {
     font-family: Droid-Reg;
     color: #458c8a;
@@ -148,6 +136,42 @@ body {
     font-size: 28px;
 }
 
+/* link to go back to home section */
+.back-to-top {
+    font-family: Yanone;
+    color: white;
+    font-size: 18px;
+    align-self:flex-start;
+    margin-left:2%; margin-top:1%;
+    transition:0.5s;
+}
+
+#footer-back-to-top {
+    color: #8bbfb6;
+    font-size: 30px;
+    font-family: Yanone;
+    font-weight: bold;
+    margin-bottom: 1%;
+    transition:0.5s;
+}
+
+.back-to-top:hover, #footer-back-to-top:hover {
+   opacity: 0.6;
+}
+
+/* project section */
+
+#project-section, #project-container, .project-box, .tool-box {
+    display: flex;
+}
+
+#project-section {
+    background-image: url("./project-bg.png");
+    height:730px;
+    flex-direction: column;
+    align-items: center;
+}
+
 .white-header {
     font-family: Droid-Bold;
     color:white;
@@ -156,14 +180,12 @@ body {
 }
 
 #project-container {
-    display: flex;
     justify-content: space-around;
     width: 100%;
 }
 
 .project-box {
     position:relative;
-    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -174,19 +196,24 @@ body {
     transition: 0.7s;
 }
 
+/* hover transition for individual project boxes */
 .project-box:hover {
     border-radius: 25%;
     background-color:#edfffc;
+    transform: scale(1.1);
 }
 
-#rbandit {
+#project-img {
     height: 55%;
+}
+
+.projectbox-header, .project-desc {
+    font-family: Yanone;
+    color: #458c8a;
 }
 
 .projectbox-header {
     margin-bottom: 0px;
-    font-family: Yanone;
-    color: #458c8a;
     letter-spacing: 5px;
     font-size: 25px;
 }
@@ -194,13 +221,10 @@ body {
 .project-desc {
     align-self: center;
     width: 75%;
-    font-family: Yanone-Reg;
-    color: #458c8a;
     font-size: 20px;
 }
 
 .tool-box {
-    display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
@@ -211,7 +235,7 @@ body {
     height: 20px;
     line-height: 20px;
     text-align: center;
-    font-family: Yanone-Reg;
+    font-family: Yanone;
     font-size: 20px;
 }
 
@@ -232,16 +256,18 @@ body {
     opacity: 0.5;
 }
 
-#skills-auto-container {
+/* skills and autobiography sections */
+#skills-auto-container, #skills-container {
     display: flex;
+}
+
+#skills-auto-container {
     height: 500px;
     width: 100%;
 }
 
 #skills-container {
-    display: flex;
-    align-items: center;
-    
+    align-items: center; 
     flex-flow: column wrap;
     background-image: url("./skills-bg.png");
     width: 50%;
@@ -252,28 +278,29 @@ body {
     text-align: center;
 }
 
+/* containers for group of skills */
 #hard-skills, #programming-skills, #soft-skills {
     display: flex;
     justify-content: space-around;
-    
     flex-flow: row wrap;
     width: 80%;
     row-gap: 20px;
     padding-bottom: 20px;
 }
 
+/* containers for individual skills */
 .hard-skill-box, .programming-skill-box, .soft-skill-box {
     display: flex;
     max-height: 40px;
     justify-content: center;
     align-items: center;
-    
     border-radius: 15px;
     padding-right: 5px;
     padding-left: 5px;
     transition:0.5s;
 }
 
+/* hover transition in skill containers; enlarge */
 .hard-skill-box:hover,  .programming-skill-box:hover, .soft-skill-box:hover, .navbar-element:hover, #logo-navbar:hover, #about-me:hover  {
     transform: scale(1.2); 
 }
@@ -305,6 +332,7 @@ body {
     color: #35807d;
 }
 
+/* skill icons */
 .skill-icon {
     max-width: 30%;
     max-height: 80%;
@@ -321,6 +349,7 @@ body {
     height: 100%;
 }
 
+/* formatting is also used in footer */
 .dark-header {
     color: #458c8a;
     font-family: Droid-Bold;
@@ -339,19 +368,21 @@ body {
     margin-top:0%;
 }
 
-#footer {
+/* footer and contact information */
+#footer, #contact-info-container, .contact-sub-container {
     display: flex;
     align-items: center;
+}
+
+#footer {
     flex-direction: column;
 }
 
 #contact-info-container {
-    display: flex;
     flex-direction: row wrap;
     justify-content: space-around;
     width: 100%;
     margin-top: -30px;
-    align-items: center;
 }
 
 .contact-info {
@@ -361,9 +392,7 @@ body {
 }
 
 .contact-sub-container {
-    display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
 }
 
