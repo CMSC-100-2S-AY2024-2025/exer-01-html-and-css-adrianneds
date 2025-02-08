@@ -321,3 +321,36 @@ body {
     font-family: Yanone-Light;
     font-size: 23px;
 }
+
+#footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-info-container {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: -30px;
+}
+
+.contact-info {
+    color: #35807d;
+    font-family: Yanone-Light;
+    font-size: 30px;
+}
+
+.contact-sub-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-icon {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
