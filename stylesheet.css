@@ -1,29 +1,28 @@
-
 /* fonts */
 
 @font-face {
     font-family: Yanone;
-    src: url(./yanone.ttf);
+    src: url(./fonts/yanone.ttf);
 }
 
 @font-face {
     font-family: Yanone-Thin;
-    src: url(./yanone-thin.ttf);
+    src: url(./fonts/yanone-thin.ttf);
 }
 
 @font-face {
     font-family: Yanone-Light;
-    src: url(./yanone-light.ttf);
+    src: url(./fonts/yanone-light.ttf);
 }
 
 @font-face {
     font-family: Droid-Bold;
-    src: url(./DroidSerif-Bold.ttf);
+    src: url(./fonts/DroidSerif-Bold.ttf);
 }
 
 @font-face {
     font-family: Droid-Reg;
-    src: url(./DroidSerif-Regular.ttf);
+    src: url(./fonts/DroidSerif-Regular.ttf);
 }
 
 /* for smooth scrolling when redirected to sections */ 
