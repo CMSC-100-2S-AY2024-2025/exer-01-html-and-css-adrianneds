@@ -9,19 +9,18 @@ You may view my portfolio through the link above. Note that some information (ab
 # Steps on Creating a GitHub Page
 1. Create or clone a repository.
 2. Create a .html file and name it "index.html"
-3. Write some HTML code and construct your website.
-3.1. You may also add a stylesheet.
+3. Write some HTML code and construct your website. You may also use a stylesheet.
 4. Commit changes and push it into your remote repository. Make sure
 that all your resources (images, fonts, stylesheet) are also in your
 remote repository.
 5. Click on the settings tab of your GitHub repository. 
 6. Click "Pages". 
 7. Under "Build and deployment" and "Source, make sure that "Deploy from a branch" is selected.
-7. Under "Build and deployment" and "Branch", select the main branch.
-8. Click "Save"
-9. Your GitHub page can now be viewed in the URL shown at the top of the page along with the message "Your site is live at...". It may take a while for it to appear and you might need to
+8. Under "Build and deployment" and "Branch", select the main branch.
+9. Click "Save"
+10a. Your GitHub page can now be viewed in the URL shown at the top of the page along with the message "Your site is live at...". It may take a while for it to appear and you might need to
 refresh. 
-9.1. You may also copy the domain name shown under "Cusotm domain" (the one with .github.io) and add /<repository-name> at the end. <domain-name>/<repository-name>
+10b. You may also copy the domain name shown under "Cusotm domain" (the one with .github.io) and add /< repository-name > at the end. < domain-name >/< repository-name >
 
 # Key Takeaways
 Being a web developer requires a lot of patience and persistence to
