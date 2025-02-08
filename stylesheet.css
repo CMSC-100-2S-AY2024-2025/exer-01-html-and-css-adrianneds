@@ -39,7 +39,7 @@ body {
 .container-type2 {
     display: flex;
     background-image: url("./project-bg.png");
-    height:710px;
+    height:730px;
     flex-direction: column;
     align-items: center;
 }
