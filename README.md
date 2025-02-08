@@ -18,7 +18,7 @@ remote repository.
 7. Under "Build and deployment" and "Source, make sure that "Deploy from a branch" is selected.
 8. Under "Build and deployment" and "Branch", select the main branch.
 9. Click "Save"
-10. Your GitHub page can now be viewed in the URL \<domain-name>/\<repository-name>. You can see the domain name under "Custom domain" (the one ending in .github.io)
+10. Your GitHub page can now be viewed in the URL \<domain>/\<repository-name>. You can see the domain under "Custom domain" (the one ending in .github.io)
 
  The URL will also be shown at the top of the page along with the message "Your site is live at...". It may take a while for it to appear and you might need to refresh. 
 
