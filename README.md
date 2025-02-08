@@ -20,8 +20,6 @@ remote repository.
 9. Click "Save"
 10. Your GitHub page can now be viewed in the URL \<domain>/\<repository-name>. You can see the domain under "Custom domain" (the one ending in .github.io)
 
- The URL will also be shown at the top of the page along with the message "Your site is live at...". It may take a while for it to appear and you might need to refresh. 
-
 # Key Takeaways
 Being a web developer requires a lot of patience and persistence to
 solve problems that may arise in creating a webpage, especially since
