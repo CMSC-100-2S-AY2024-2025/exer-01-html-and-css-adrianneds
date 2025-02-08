@@ -216,3 +216,47 @@ body {
 .project-link:hover {
     opacity: 0.5;
 }
+
+#skills-auto-container {
+    display: flex;
+    height: 730px;
+    width: 100%;
+}
+
+#skills-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("./skills-bg.png");
+    width: 50%;
+    height: 100%;
+}
+
+#auto-container {
+    display: flex;
+    justify-content: center;
+    background-image: url("./auto-bg.png");
+    width: 50%;
+    height: 100%;
+}
+
+.dark-header {
+    color: #458c8a;
+    font-family: Droid-Bold;
+    font-size: 65px;
+    letter-spacing: -3px;
+}
+
+#hard-skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hard-skill-box {
+    background-color: #2e6967;
+    border-radius: 15px;
+}
+
+.hard-skill-text {
+    color: 
+}
