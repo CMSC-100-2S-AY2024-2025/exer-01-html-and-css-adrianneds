@@ -41,10 +41,11 @@ body {
 }
 
 #home {
-    background-image: url("./images/background-img/mint2.png");
+    background-image: url("./images/background-img/mint3.png");
     background-color: #f8f8f8;
     background-position: 65px;
     height:770px;
+    max-width: 100%;
 }
 
 #navbar {
