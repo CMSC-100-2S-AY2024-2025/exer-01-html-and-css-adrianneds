@@ -18,9 +18,7 @@ remote repository.
 7. Under "Build and deployment" and "Source, make sure that "Deploy from a branch" is selected.
 8. Under "Build and deployment" and "Branch", select the main branch.
 9. Click "Save"
-10a. Your GitHub page can now be viewed in the URL shown at the top of the page along with the message "Your site is live at...". It may take a while for it to appear and you might need to
-refresh. 
-10b. You may also copy the domain name shown under "Cusotm domain" (the one with .github.io) and add /< repository-name > at the end. < domain-name >/< repository-name >
+10. Your GitHub page can now be viewed in the URL shown at the top of the page along with the message "Your site is live at...". It may take a while for it to appear and you might need to refresh. 
 
 # Key Takeaways
 Being a web developer requires a lot of patience and persistence to
